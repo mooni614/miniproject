@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>글쓰기</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/reviewboard/boardWrite.css">
+    <script src="/jq/jquery-3.7.0.min.js"></script>
+    <script src="/jq/jquery.form.min.js"></script>
+    <script src="/js/cafemap/mapMain.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/fb453b869a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+
+
+</head>
+<body>
+
+<section class="notice">
+    <div class="page-title">
+        <div class="container">
+            <h3>글쓰기</h3>
+        </div>
+    </div>
+
+
+    <!-- board write area -->
+    <div id="board-write">
+        <div class="container">
+            <div class="write_wrap">
+                <div class="write_title_font">제목</div>
+                <input class="write_title" type="text" name="ac_title" placeholder="제목을 입력해주세요"
+                       value="">
+            </div>
+
+
+            <div>
+            <textarea class="writeform" name="ac_text" id="desc" placeholder="
+               다녀왔던 카페의 후기를 남겨주세요!"></textarea>
+            </div>
+
+
+            <div id="file-">
+                <div class="container">
+                    <div class="file-window">
+                        <form action="">
+                            <div class="file-wrap">
+
+                                <input id="search" type="file" name="" placeholder="사진 선택" value="">
+                                <button type="submit" class="btn btn-dark">검색</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class=" buttons" style="margin-top: 7px;">
+                <button class="cancelbtn" style="width: calc(50% - 8px);">취소</button>
+                <input type="submit" value="작성완료" class="writebtn" style="width: calc(50% - 8px);">
+            </div>
+
+
+        </div>
+
+        </form>
+    </div>
+    </div>
+    </div>
+
+
+</section>
+
+
+</body>
+</html>
