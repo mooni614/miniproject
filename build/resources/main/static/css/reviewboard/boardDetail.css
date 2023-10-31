@@ -1,0 +1,261 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+section.notice {
+    padding: 80px 0;
+}
+
+
+
+/* reset */
+
+* {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+
+
+
+.write-btn{
+
+    width: 108px;
+    padding: 0;
+    font-size: 18px;
+
+
+}
+
+
+
+/*게시글 본문*/
+
+.xans-board-read .title {
+    margin: 14px 14px 0;
+}
+
+.xans-board-read .label.hide {
+    display: none;
+}
+
+.xans-board-read .content {
+    margin: -1px 0 0;
+    padding: 14px 14px 14px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #d5d5d5;
+    text-align: center;
+}
+
+
+.xans-board-read .attach {
+    padding: 14px 10px 14px;
+    border-bottom: 1px solid #d5d5d5;
+    color: #757575;
+}
+
+.xans-board-read .attach .label {
+    float: left;
+    width: 20%;
+}
+
+.xans-board-read .attach a {
+    padding: 0 0 0 17px;
+    text-decoration: underline;
+    white-space: nowrap;
+    background: url(//img.echosting.cafe24.com/skin/mobile_ko_KR/board/ico_file.png) no-repeat 0 0;
+    background-size: 13px 12px;
+}
+
+
+.xans-board-read .ec-base-button {
+    margin: 10px 14px;
+}
+
+.ec-base-button .gLeft {
+    float: left;
+    text-align: left;
+}
+
+.btnStrong {
+    color: #fff;
+    border: 1px solid #555;
+    border-bottom-color: #373d4b;
+    background: #555;
+}
+
+
+/*댓글목록*/
+
+.xans-board-commentpackage {
+    overflow: hidden;
+    background: #fff;
+}
+
+
+.xans-board-commentpackage .commentTitle {
+    padding: 14px;
+    background: #f1f1f1;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #ececec;
+}
+
+
+.xans-board-commentpackage .commentTitle h3 {
+    display: inline-block;
+}
+
+
+.xans-board-commentempty p {
+    padding: 28px 14px;
+    text-align: center;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+
+.xans-board-commentwrite {
+    padding: 29px 0 0;
+}
+
+
+.xans-board-commentwrite .boardCommentWrite fieldset {
+    padding: 7px 0 0;
+    border-top: 1px solid #d5d5d5;
+}
+
+legend {
+    height: 0;
+    width: 0;
+    display: block;
+    text-indent: -9999em;
+}
+
+
+.xans-board-commentwrite .boardCommentWrite .info {
+    margin: 0 0 7px;
+    padding: 0 14px;
+}
+
+
+.xans-board-commentwrite .boardCommentWrite .info p.name {
+    float: left;
+    width: 48.5%;
+}
+
+
+.xans-board-commentwrite .boardCommentWrite .label {
+    padding: 0 5px 0 0;
+    color: #757575;
+    font-weight: normal;
+    vertical-align: middle;
+    letter-spacing: -1px;
+}
+
+
+.xans-board-commentwrite .boardCommentWrite .info p.name #comment_name {
+    width: 60%;
+}
+
+
+.xans-board-commentwrite .boardCommentWrite .info p.password {
+    float: right;
+    width: 51.5%;
+    border-bottom: 0;
+    text-align: right;
+}
+
+
+.xans-board-commentwrite .boardCommentWrite .info p.password .label {
+    margin: 0;
+}
+
+.xans-board-commentwrite .boardCommentWrite .info p.password #comment_password {
+    width: 60%;
+}
+
+.xans-board-commentwrite .boardCommentWrite .comment {
+    margin: 7px 14px;
+}
+
+.xans-board-commentwrite .boardCommentWrite .label.hide {
+    display: none;
+}
+
+.xans-board-commentwrite .boardCommentWrite .comment textarea#comment {
+    width: 100%;
+    height: 50px;
+
+    box-sizing: border-box;
+}
+
+.xans-board-commentwrite .ec-base-button {
+    margin: 10px 14px;
+}
+
+[class*="btn"].mini {
+    height: 26px;
+    line-height: 24px;
+    font-size: 11px;
+}
+
+.xans-board-movement {
+    background: #fff;
+    padding: 0 0 14px;
+}
+
+.xans-board-movement .boardMovement {
+    overflow: hidden;
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5em;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.xans-board-movement li.prev {
+    margin-bottom: -1px;
+    border-bottom: 1px solid #ececec;
+}
+
+.xans-board-movement strong {
+    left: -60px;
+    margin-right: -60px;
+    width: 40px;
+    padding: 0 10px;
+    color: #757575;
+    font-weight: normal;
+}
+
+
+.xans-board-movement a {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.xans-board-movement li {
+    overflow: hidden;
+    padding: 6px 0 6px 60px;
+    height: 30px;
+}
+

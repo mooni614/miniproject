@@ -23,4 +23,12 @@ public class ReviewboardController {
 
     }
 
+
+    @GetMapping("/reviewboard/boardDetail")
+    String boardDetail(){
+
+        return "reviewboard/boardDetail";
+
+    }
+
 }
