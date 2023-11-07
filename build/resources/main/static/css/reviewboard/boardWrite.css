@@ -4,7 +4,7 @@ table {
     border-spacing: 0;
 }
 
-section.notice {
+.notice {
     padding: 80px 0;
 }
 
@@ -98,6 +98,16 @@ section.notice {
     border-color: #373737;
     color: #fff;
 }
+
+
+.writebtn {
+    width: 50px;
+}
+
+.cancelbtn  {
+    width: 50px;
+}
+
 
 /* reset */
 
