@@ -23,6 +23,7 @@ public class CafemapEntity {
     @Column
     private String bm_memo;
     @Column
+    @JoinColumn(name = "user_id")
     private Long user_id;
     @Column
     private String bm_address;
@@ -31,5 +32,6 @@ public class CafemapEntity {
     @Column
     private double bmy;
     @Column
+    @JoinColumn(name = "cate_id")
     private Long cate_id;
 }

@@ -29,6 +29,7 @@ public class ReviewBoardEntity {
     @Column
     private double review_count;
     @Column
+    @JoinColumn(name = "user_id")
     private Long user_id;
     @Column
     private int review_grade;
